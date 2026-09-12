@@ -4,6 +4,8 @@ A data pipeline I built on Databricks Free Edition using about 1 million real
 retail transactions. Raw CSV files go in, cleaned tables come out, and the data
 gets checked before anything is used for reporting.
 
+![Catalog showing the bronze, silver and gold schemas](catalog.png)
+
 ## What it does
 
 The data moves through three layers:
